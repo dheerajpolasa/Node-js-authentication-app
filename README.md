@@ -23,7 +23,7 @@ Folder Structure -
  For sending out emails wnile resetting the password, follow the below steps carefully
   
     1. Navigate to controllers/userController.js
-    2. Put the mail and password in EMAIL and PASSWORD variables
+    2. Put the mail and password in EMAIL and PASSWORD variables, Make sure your are using gmail
     3. Use the app now.
     
  For Google Authentication

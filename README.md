@@ -3,14 +3,11 @@
 Folder Structure -
 
   1. Assests --> All the css, js and images are present here
-  
   2. config --> All the configuration files are present here
-  
       1. middleware.js
       2. mongoose.js
       3. passport-google-oauth2-strategy.js
       4. passport-local-strategy.js
-  
   3. controllers --> All the functions of routes are present here
       1. homeController.js
       2. userController.js

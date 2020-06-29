@@ -27,6 +27,7 @@ Folder Structure -
     3. Use the app now.
     
  For Google Authentication
+ 
     1. Navigate to config/passport-google-oauth2-strategy.js
     2. Change the clientID, clientSecret and callback with your details
  

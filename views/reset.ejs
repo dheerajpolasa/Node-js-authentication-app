@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="/css/main.css">
+<form action="/users/reset" method="post" class="form">
+    <div class="form-control heading">
+        <h1>Change Password</h1>
+    </div>
+    <div class="form-control">
+        <input type="text" name="email" id="email" value="<%= locals.user.email %>"hidden>
+    </div>
+    <div class="form-control">
+        <input type="password" name="current-password" placeholder="current password">
+    </div>
+    <div class="form-control">
+        <input type="password" name="new-password" placeholder="new password">
+    </div>
+    <div class="form-control">
+        <input type="password" name="confirm-password" placeholder="enter new password again">
+    </div>
+    <button type="submit" class="btn btn-reset">Reset</button>
+</form>

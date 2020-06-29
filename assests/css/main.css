@@ -1,0 +1,96 @@
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://media.npr.org/assets/img/2019/12/13/trh_health_for_all_artwork_wide-44d88ff79a007e3e29aeedc243778f3dcf5fa34e-s800-c85.jpg);
+    background-size: cover;
+}
+
+.form {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.form-control input {
+    padding: 5px;
+    margin: 2px;
+    width: 300px;
+}
+
+#main-heading {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    color: sienna;
+    font-family: cursive;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    margin: 300px;
+}
+
+.main-container button {
+    width: 100px;
+    padding: 20px;
+}
+
+.main-container a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-container a:hover {
+    cursor: pointer;
+}
+
+.heading {
+    font-family: cursive;
+    color: dimgrey
+}
+
+.btn {
+    width: 300px;
+    height: 30px;
+    background-color: aquamarine;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: blanchedalmond;
+}
+
+.additional-features {
+    margin: 10px;
+}
+
+.additional-features button {
+    background-color: snow;
+    border-radius: 25px;
+}
+
+.additional-features button:hover {
+    background-color: transparent;
+    border: none;
+}
+
+.additional-features a {
+    text-decoration: none;
+}
+
+.google-feature {
+    /* width: 300px; */
+    padding: 15px;
+}
+
+.google-feature button {
+    width: 300px;
+}
+
+.google-feature a {
+    text-decoration: none;
+}
